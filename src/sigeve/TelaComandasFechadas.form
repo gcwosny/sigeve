@@ -1,0 +1,345 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="painelPrincipal" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="painelPrincipal" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="painelPrincipal">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+        <Property name="name" type="java.lang.String" value="painelPrincipal" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="bOk" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                      <Component id="painelJustificativa" alignment="0" max="32767" attributes="1"/>
+                      <Component id="painelResultado" alignment="0" min="-2" max="-2" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="painelResultado" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="painelJustificativa" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="bOk" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="painelResultado">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Resultado">
+                  <Property name="titleX" resourceKey="painelResultado.border.title"/>
+                  <Property name="font" resourceKey="FontePadrao"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="painelResultado" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lVendas" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lReforcos" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lSangrias" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lCaixaAtual" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lCaixaAbertura" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lDespesas" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="tfVendas" alignment="0" max="32767" attributes="1"/>
+                          <Component id="tfReforcos" alignment="0" max="32767" attributes="1"/>
+                          <Component id="tfSangrias" alignment="0" max="32767" attributes="1"/>
+                          <Component id="tfCaixaAtual" alignment="0" max="32767" attributes="1"/>
+                          <Component id="tfDespesas" alignment="0" max="32767" attributes="1"/>
+                          <Component id="tfCaixaAbertura" alignment="0" pref="218" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace pref="25" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tfCaixaAbertura" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lCaixaAbertura" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lVendas" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfVendas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lReforcos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfReforcos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lSangrias" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfSangrias" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lDespesas" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfDespesas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lCaixaAtual" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tfCaixaAtual" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lCaixaAbertura">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="lCaixaAbertura.text"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="lCaixaAbertura" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lVendas">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="lVendas.text"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="lVendas" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lReforcos">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="lReforcos.text"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="lReforcos" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lSangrias">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="lSangrias.text"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="lSangrias" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lDespesas">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="lDespesas.text"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="lDespesas" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lCaixaAtual">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="lCaixaAtual.text"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="lCaixaAtual" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfCaixaAbertura">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="tfCaixaAbertura.background"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="tfCaixaAbertura" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfVendas">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="tfVendas.background"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="tfVendas" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfReforcos">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="tfReforcos.background"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="tfReforcos" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfSangrias">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="tfSangrias.background"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="tfSangrias" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfDespesas">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="tfDespesas.background"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="tfDespesas" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="tfCaixaAtual">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="tfCaixaAtual.background"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="tfCaixaAtual" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="painelJustificativa">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Justificativa">
+                  <Property name="titleX" resourceKey="painelJustificativa.border.title"/>
+                  <Property name="font" resourceKey="FontePadrao"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="painelJustificativa" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="spJustificativa" alignment="0" pref="375" max="32767" attributes="1"/>
+                          <Component id="lAviso" alignment="0" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lAviso" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="spJustificativa" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lAviso">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="lAviso.text"/>
+                <Property name="name" type="java.lang.String" value="lAviso" noResource="true"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="spJustificativa">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="spJustificativa" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="taJustificativa">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" resourceKey="CorNivel4"/>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="2"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="name" type="java.lang.String" value="taJustificativa" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="bOk">
+          <Properties>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="sigeve.TelaComandasFechadas" id="fecharTela" methodName="fecharTela"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+            <Property name="text" type="java.lang.String" resourceKey="bOk.text"/>
+            <Property name="name" type="java.lang.String" value="bOk" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

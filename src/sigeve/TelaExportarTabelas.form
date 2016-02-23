@@ -1,0 +1,323 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+        <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pTebelas" alignment="0" min="-2" max="-2" attributes="1"/>
+                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="114" max="32767" attributes="0"/>
+                  <Component id="bOk" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="bCancelar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pTebelas" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bOk" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+            <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+            <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="pTebelas">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="pTebelas" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cbFuncionarios" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbJornadas" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbDespesas" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbComandas" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbPedidos" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbFuncionariosJornadas" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cbTempo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbTurnos" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbProdutos" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbLojas" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbCategorias" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbTodas" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="cbTempo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbTurnos" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbLojas" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbProdutos" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbCategorias" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbTodas" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="cbPedidos" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbComandas" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbJornadas" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbDespesas" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbFuncionarios" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cbFuncionariosJornadas" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="cbPedidos">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbPedidos.text"/>
+                <Property name="name" type="java.lang.String" value="cbPedidos" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBoxStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbComandas">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbComandas.text"/>
+                <Property name="name" type="java.lang.String" value="cbComandas" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBoxStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbJornadas">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbJornadas.text"/>
+                <Property name="name" type="java.lang.String" value="cbJornadas" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBoxStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbDespesas">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbDespesas.text"/>
+                <Property name="name" type="java.lang.String" value="cbDespesas" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBoxStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbFuncionarios">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbFuncionarios.text"/>
+                <Property name="name" type="java.lang.String" value="cbFuncionarios" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBoxStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbFuncionariosJornadas">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbFuncionariosJornadas.text"/>
+                <Property name="name" type="java.lang.String" value="cbFuncionariosJornadas" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBoxStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbTempo">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbTempo.text"/>
+                <Property name="name" type="java.lang.String" value="cbTempo" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBoxStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbTurnos">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbTurnos.text"/>
+                <Property name="name" type="java.lang.String" value="cbTurnos" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBoxStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbLojas">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbLojas.text"/>
+                <Property name="name" type="java.lang.String" value="cbLojas" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBoxStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbProdutos">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbProdutos.text"/>
+                <Property name="name" type="java.lang.String" value="cbProdutos" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBoxStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbCategorias">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbCategorias.text"/>
+                <Property name="name" type="java.lang.String" value="cbCategorias" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="jCheckBoxStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cbTodas">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="CorNivel2"/>
+                <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+                <Property name="text" type="java.lang.String" resourceKey="cbTodas.text"/>
+                <Property name="name" type="java.lang.String" value="cbTodas" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="cbTodasStateChanged"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="bOk">
+          <Properties>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="sigeve.TelaExportarTabelas" id="confirmar" methodName="confirmar"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+            <Property name="text" type="java.lang.String" resourceKey="bOk.text"/>
+            <Property name="name" type="java.lang.String" value="bOk" noResource="true"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[85, 25]"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="bCancelar">
+          <Properties>
+            <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+              <action class="sigeve.TelaExportarTabelas" id="cancelar" methodName="cancelar"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" resourceKey="FontePadrao"/>
+            <Property name="text" type="java.lang.String" resourceKey="bCancelar.text"/>
+            <Property name="name" type="java.lang.String" value="bCancelar" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
